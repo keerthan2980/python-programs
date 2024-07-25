@@ -15,7 +15,8 @@ print(m.startswith("a"))
 
 t="keerthan kumar"
 print(t.replace("kumar","reddy")) 
-
+ 
+ 
 c="keerthan kumar"
-print(c.index())
+print(c.index("u"))
 print(c.find)
