@@ -18,3 +18,11 @@ k=int(input("enter the rotation:"))
 k=k%len(string) #if k len is grater than string 
 rotat=string[-k:]+string[:-k]
 print(rotat)
+
+"""
+Code	Output	Explanation
+h[k:]	llo	From index 2 to end (left part after rotate)
+h[:k]	he	First 2 characters
+h[-k:]	lo	Last 2 characters (right rotation part)
+h[:-k]	hel	All except last 2 characters
+"""
